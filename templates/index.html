@@ -4,16 +4,55 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        h1 {
+            font-size: 25px
+        }
         .h-text {
             color: cornflowerblue;
+        }
+        .h3-text{
+            color: olive;
+        }
+
+        #h1-text {
+            font-family: Menlo;
+        }
+
+        div.course > a {
+            color: royalblue;
+        }
+        ul li {
+            color: teal;
+            font-size: 25px;
+        }
+        input[type="text"]{
+            background-color: saddlebrown;
+        }
+        a:hover {
+            color: greenyellow;
+        }
+        input[type="text"]:hover {
+            background-color: burlywood;
+        }
+        li::marker {
+            color: firebrick;
+        }
+        ul > li:nth-child(2) {
+            color: goldenrod;
+        }
+        ol > li:nth-child(even) {
+            color: goldenrod;
+        }
+        div.nth > p:nth-of-type(3) {
+
         }
     </style>
 </head>
 <body>
-<div>
+<div class="certificate">
     <h1 id="h1-text">H1 text</h1>
     <h2 class="h-text">H2 text</h2>
-    <h3>H3 text</h3>
+    <h3 class="h-text h3-text">H3 text</h3>
     <p>"Code is like humor. When you have to explain it, <span style="color: darkgreen; font-weight: bold">it’s bad</span>" – Cory House</p>
     <a href="https://stepik.org/users/1169835396/certificates" target="_blank">Certificate</a>
     <ul>
@@ -57,7 +96,17 @@
         </tbody>
     </table>
 </div>
-
+<div class="course">
+    <h2 class="h-text">H2 text</h2>
+<a href="https://stepik.org/course/249231/syllabus" target="_blank">Course auto test</a>
+</div>
+<div class="nth">
+    <p>1</p>
+    <p>2</p>
+    <h6>3</h6>
+    <h5>4</h5>
+    <p>5</p>
+</div>
 <div>
     <img alt="Certificate.png" src="https://stepik.org/certificate/4f35a0462b935cedea7d4443fb977cc18ed36515.png?language=en&resolution=high"
          style="width: 700px">
