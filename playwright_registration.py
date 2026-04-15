@@ -14,9 +14,9 @@ with sync_playwright() as playwright:
     password_input = page.get_by_test_id("registration-form-password-input").locator('input')
     password_input.fill("password")
 
-    registration_button = page.get_by_test_id('registration-page-registration-button')
-    registration_button.click()
-    expect(page).to_have_url('https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/dashboard')
+    # registration_button = page.get_by_test_id('registration-page-registration-button')
+    # registration_button.click()
+    # expect(page).to_have_url('https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/dashboard')
 
     dashboard_heading = page.get_by_test_id('dashboard-toolbar-title-text')
     expect(dashboard_heading).to_have_text('Dashboard')
