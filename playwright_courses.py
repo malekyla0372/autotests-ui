@@ -1,4 +1,4 @@
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, expect
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless=False)
@@ -24,8 +24,6 @@ with sync_playwright() as playwright:
     context.storage_state(path='test-browser-state.json')
 
     page.wait_for_timeout(5000)
-
-from playwright.sync_api import sync_playwright, expect
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless=False)
