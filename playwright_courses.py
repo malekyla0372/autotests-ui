@@ -20,10 +20,9 @@ with sync_playwright() as playwright:
     registration_button.click()
 
     page.wait_for_url('https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/dashboard')
+    page.wait_for_timeout(3000)
 
     context.storage_state(path='test-browser-state.json')
-
-    page.wait_for_timeout(5000)
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless=False)
