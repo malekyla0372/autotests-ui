@@ -4,7 +4,7 @@ import pytest
 def test_future_development():
     ...
 
-@pytest.mark.skip(reason='Feature not implemented yet')
+@pytest.mark.skip(reason='Database is down')
 class TestFutureDevelopment:
     def test_future_development_1(self):
         ...
