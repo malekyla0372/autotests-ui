@@ -10,3 +10,4 @@ class BasePage:
 
     def reload(self):
         self.page.reload(wait_until="networkidle")
+
