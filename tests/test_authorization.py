@@ -1,6 +1,6 @@
 from playwright.sync_api import sync_playwright, expect, Page
 import pytest
-from pages.login_page import LoginPage  # я тут типо импортирую из моей библиотеки которую создал?
+from pages.login_page import LoginPage
 
 
 @pytest.mark.parametrize(
