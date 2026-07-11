@@ -1,13 +1,23 @@
 from components.base_component import BaseComponent
-from playwright.sync_api import expect
+from playwright.sync_api import expect, Page
+
+from elemets.button import Button
+from elemets.input import Input
+from elemets.text import Text
 
 
 class CreateCourseExerciseFormComponent(BaseComponent):
+    def __init__(self, page: Page):
+        super().__init__(page)
+
+        self.delete_exercise_button = Button(page, "create-course-exercise-{index}-box-toolbar-delete-exercise-button", "Delete exercise")
+
+        self.subtitle = Text(page, "create-course-exercise-{index}-box-toolbar-subtitle-text", "Exercise subtitle")
+        self.title_input = Input(page, "create-course-exercise-form-title-{index}-input", "Title")
+        self.description_input = Input(page, "create-course-exercise-form-description-{index}-input", "Description")
+
     def click_delete_button(self, index: int):
-        delete_button = self.page.get_by_test_id(
-            f"create-course-exercise-{index}-box-toolbar-delete-exercise-button"
-        )
-        delete_button.click()
+        self.delete_exercise_button.click(index=index)
 
     def check_visible(self, index: int, title: str, description: str):
         subtitle = self.page.get_by_test_id(f"create-course-exercise-{index}-box-toolbar-subtitle-text")
