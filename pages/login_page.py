@@ -1,9 +1,9 @@
 from playwright.sync_api import Page, expect
 
 from components.authentication.login_form_component import LoginFormComponent
-from elemets.button import Button
-from elemets.link import Link
-from elemets.text import Text
+from elements.button import Button
+from elements.link import Link
+from elements.text import Text
 from pages.base_page import BasePage
 
 
