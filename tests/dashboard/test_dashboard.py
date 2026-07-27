@@ -16,6 +16,9 @@ from pages.dashboard.dashboard_page import DashboardPage
 @allure.feature(AllureFeature.DASHBOARD)
 @allure.story(AllureStory.DASHBOARD)
 @allure.severity(Severity.NORMAL)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.DASHBOARD)
+@allure.sub_suite(AllureStory.DASHBOARD)
 class TestDashboard:
     @allure.title("Check displaying dashboard page")
     def test_dashboard_displaying(self, dashboard_page_with_state: DashboardPage):
