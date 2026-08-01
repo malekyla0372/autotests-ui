@@ -28,6 +28,9 @@ class Settings(BaseSettings):
         env_nested_delimiter=".",
     )
 
+    def get_base_url(self) -> str:
+        return f"{self.app_url}/"
+
     app_url: HttpUrl
     headless: bool
     browsers: list[Browser]
