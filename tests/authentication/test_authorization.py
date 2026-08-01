@@ -26,8 +26,12 @@ class TestAuthorization:
     @allure.tag(AllureTag.USER_LOGIN)
     @allure.title("User login with correct email and password")
     @allure.severity(Severity.BLOCKER)
-    def test_successful_authorization(self, registration_page: RegistrationPage, dashboard_page: DashboardPage,
-                                      login_page: LoginPage):
+    def test_successful_authorization(
+            self,
+            registration_page: RegistrationPage,
+            dashboard_page: DashboardPage,
+            login_page: LoginPage
+    ):
         registration_page.visit(AppRoute.REGISTRATION)
         registration_page.registration_form.fill(
             email=settings.test_user.email,
