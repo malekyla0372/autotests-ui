@@ -1,0 +1,9 @@
+allure-pytest==2.16.0
+email_validator==2.3.0
+playwright==1.62.0
+pydantic==2.13.4
+pydantic-settings==2.14.2
+pytest==9.1.1
+pytest-playwright==0.8.0
+pytest-rerunfailures==16.4
+pytest-xdist==3.8.0
