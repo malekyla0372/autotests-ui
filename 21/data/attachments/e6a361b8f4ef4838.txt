@@ -1,0 +1,100 @@
+INFO     BASE_PAGE:base_page.py:17 Opening the url 'AppRoute.REGISTRATION'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=registration-form-email-input" at index "0"
+INFO     INPUT:input.py:22 Fill input 'Email' to value 'user.name@gmail.com'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=registration-form-email-input" at index "0"
+INFO     INPUT:input.py:30 Check that input 'Email' has value 'user.name@gmail.com'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=registration-form-username-input" at index "0"
+INFO     INPUT:input.py:22 Fill input 'Username' to value 'username'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=registration-form-username-input" at index "0"
+INFO     INPUT:input.py:30 Check that input 'Username' has value 'username'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=registration-form-password-input" at index "0"
+INFO     INPUT:input.py:22 Fill input 'Password' to value 'password'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=registration-form-password-input" at index "0"
+INFO     INPUT:input.py:30 Check that input 'Password' has value 'password'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=registration-page-registration-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:31 Clicking button "Registration"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40167ae450>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40167ae450>> "Title" has text "Dashboard"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=navigation-navbar-app-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40168bd550>> "App title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=navigation-navbar-app-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40168bd550>> "App title" has text "UI Course"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=navigation-navbar-welcome-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f401c14ec50>> "Welcome title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=navigation-navbar-welcome-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f401c14ec50>> "Welcome title" has text "Welcome, username!"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=logout-drawer-list-item-icon" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Icon.type_of of <elements.icon.Icon object at 0x7f4016754950>> "Icon" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=logout-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f4016754310>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=logout-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f4016754310>> "Title" has text "Logout"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=logout-drawer-list-item-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that button "Button" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=courses-drawer-list-item-icon" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Icon.type_of of <elements.icon.Icon object at 0x7f4016705ad0>> "Icon" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=courses-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f4016705e10>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=courses-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f4016705e10>> "Title" has text "Courses"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=courses-drawer-list-item-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that button "Button" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-drawer-list-item-icon" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Icon.type_of of <elements.icon.Icon object at 0x7f40155cbed0>> "Icon" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40155cbe50>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40155cbe50>> "Title" has text "Dashboard"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-drawer-list-item-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that button "Button" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=logout-drawer-list-item-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:31 Clicking button "Button"
+INFO     BASE_COMPONENT:base_component.py:17 Checking that current url matches pattern re.compile('.*/#/auth/login')
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=login-form-email-input" at index "0"
+INFO     INPUT:input.py:22 Fill input 'Email' to value 'user.name@gmail.com'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=login-form-email-input" at index "0"
+INFO     INPUT:input.py:30 Check that input 'Email' has value 'user.name@gmail.com'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=login-form-password-input" at index "0"
+INFO     INPUT:input.py:22 Fill input 'Password' to value 'password'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=login-form-password-input" at index "0"
+INFO     INPUT:input.py:30 Check that input 'Password' has value 'password'
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=login-page-login-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:31 Clicking button "login"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40167ae450>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40167ae450>> "Title" has text "Dashboard"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=navigation-navbar-app-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40168bd550>> "App title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=navigation-navbar-app-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40168bd550>> "App title" has text "UI Course"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=navigation-navbar-welcome-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f401c14ec50>> "Welcome title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=navigation-navbar-welcome-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f401c14ec50>> "Welcome title" has text "Welcome, username!"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=logout-drawer-list-item-icon" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Icon.type_of of <elements.icon.Icon object at 0x7f4016754950>> "Icon" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=logout-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f4016754310>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=logout-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f4016754310>> "Title" has text "Logout"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=logout-drawer-list-item-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that button "Button" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=courses-drawer-list-item-icon" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Icon.type_of of <elements.icon.Icon object at 0x7f4016705ad0>> "Icon" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=courses-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f4016705e10>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=courses-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f4016705e10>> "Title" has text "Courses"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=courses-drawer-list-item-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that button "Button" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-drawer-list-item-icon" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Icon.type_of of <elements.icon.Icon object at 0x7f40155cbed0>> "Icon" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40155cbe50>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:47 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f40155cbe50>> "Title" has text "Dashboard"
+INFO     BASE_ELEMENT:base_element.py:23 Getting locator with "data-testid=dashboard-drawer-list-item-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:39 Checking that button "Button" is visible
