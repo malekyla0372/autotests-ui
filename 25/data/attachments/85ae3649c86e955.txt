@@ -1,0 +1,19 @@
+INFO     BASE_PAGE:base_page.py:17 Opening the url 'AppRoute.REGISTRATION'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-email-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Email' to value 'user.name@gmail.com'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-email-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Email' has value 'user.name@gmail.com'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-username-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Username' to value 'username'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-username-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Username' has value 'username'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-password-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Password' to value 'password'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-password-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Password' has value 'password'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-page-registration-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Registration"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f03b9533650>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f03b9533650>> "Title" has text "Dashboard"
