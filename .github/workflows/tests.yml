@@ -31,8 +31,35 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2  
 
+      - name: Restore Coverage history
+        uses: actions/cache/restore@v6
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+          restore-keys: |
+            coverage-history
+
+      - name: Generate Coverage report
+        run: |
+          ui-coverage-tool save-report
+
+      - name: Сache Coverage history
+        if: always()
+        uses: actions/cache/save@v6
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+
+      - name: Upload Coverage history
+        if: always()
+        uses: actions/upload-artifact@v7
+        continue-on-error: true
+        with:
+          name: coverage-report
+          path: coverage.html
+
       - name: Get Allure history
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         if: always()
         continue-on-error: true
         with:
