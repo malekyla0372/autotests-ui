@@ -6,7 +6,6 @@ from ui_coverage_tool import ActionType
 
 logger = get_logger("INPUT")
 
-
 class Input(BaseElement):
     @property
     def type_of(self) -> str:
