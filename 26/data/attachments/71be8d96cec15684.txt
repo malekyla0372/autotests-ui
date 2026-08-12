@@ -1,0 +1,61 @@
+INFO     BASE_PAGE:base_page.py:17 Opening the url 'AppRoute.DASHBOARD'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=navigation-navbar-app-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d0a950>> "App title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=navigation-navbar-app-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d0a950>> "App title" has text "UI Course"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=navigation-navbar-welcome-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d09190>> "Welcome title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=navigation-navbar-welcome-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d09190>> "Welcome title" has text "Welcome, username!"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=logout-drawer-list-item-icon" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Icon.type_of of <elements.icon.Icon object at 0x7fd390d08ed0>> "Icon" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=logout-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d02f50>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=logout-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d02f50>> "Title" has text "Logout"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=logout-drawer-list-item-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that button "Button" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=courses-drawer-list-item-icon" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Icon.type_of of <elements.icon.Icon object at 0x7fd390d03850>> "Icon" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=courses-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d01910>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=courses-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d01910>> "Title" has text "Courses"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=courses-drawer-list-item-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that button "Button" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=dashboard-drawer-list-item-icon" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Icon.type_of of <elements.icon.Icon object at 0x7fd390d03610>> "Icon" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=dashboard-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d03650>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=dashboard-drawer-list-item-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d03650>> "Title" has text "Dashboard"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=dashboard-drawer-list-item-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that button "Button" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d01550>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=dashboard-toolbar-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d01550>> "Title" has text "Dashboard"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=scores-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d00950>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=scores-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d00950>> "Title" has text "Scores"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=scores-scatter-chart" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Image.type_of of <elements.image.Image object at 0x7fd390d02e10>> "Chart" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=courses-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d00110>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=courses-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d00110>> "Title" has text "Courses"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=courses-pie-chart" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Image.type_of of <elements.image.Image object at 0x7fd390d03810>> "Chart" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=students-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d019d0>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=students-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d019d0>> "Title" has text "Students"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=students-bar-chart" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Image.type_of of <elements.image.Image object at 0x7fd390d00e90>> "Chart" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=activities-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d02d50>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=activities-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7fd390d02d50>> "Title" has text "Activities"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=activities-line-chart" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Image.type_of of <elements.image.Image object at 0x7fd390d02ad0>> "Chart" is visible
