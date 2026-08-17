@@ -1,0 +1,23 @@
+llm:
+  provider: OPENAI
+  meta:
+    model: kimi-k3
+    max_tokens: 15000
+    temperature: 0.3
+  http_client:
+    timeout: 120
+    api_url: https://api.moonshot.ai/v1
+
+vcs:
+  provider: GITHUB
+  http_client:
+    api_url: https://api.github.com
+    timeout: 120
+
+prompt:
+  inline_prompt_files: [ ./prompts/inline.md ]
+  context_prompt_files: [ ./prompts/inline.md ]
+  summary_prompt_files: [ ./prompts/summary.md ]
+
+review:
+  dry_run: false
