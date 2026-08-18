@@ -3,7 +3,7 @@ llm:
   meta:
     model: kimi-k3
     max_tokens: 15000
-    temperature: 0.3
+    temperature: 1
   http_client:
     timeout: 120
     api_url: https://api.moonshot.ai/v1
