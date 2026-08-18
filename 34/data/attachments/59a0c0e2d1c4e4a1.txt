@@ -1,0 +1,104 @@
+INFO     BASE_PAGE:base_page.py:17 Opening the url './#/auth/registration'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-email-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Email' to value 'user.name@gmail.com'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-email-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Email' has value 'user.name@gmail.com'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-username-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Username' to value 'username'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-username-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Username' has value 'username'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-password-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Password' to value 'password'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-form-password-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Password' has value 'password'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=registration-page-registration-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Registration"
+INFO     BASE_PAGE:base_page.py:17 Opening the url 'AppRoute.CREATE_COURSES'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-title-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Title input' to value 'Python'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-title-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Title input' has value 'Python'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-estimated-time-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Estimated time input' to value '1 week'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-estimated-time-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Estimated time input' has value '1 week'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-description-input" at index "0"
+INFO     TEXTAREA:textarea.py:26 Fill textarea 'Description textarea' with 'OOP'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-description-input" at index "0"
+INFO     TEXTAREA:textarea.py:36 Check that textarea 'Description textarea' has value 'OOP'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-max-score-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Max score input' to value '100'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-max-score-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Max score input' has value '100'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-min-score-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Min score input' to value '30'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-min-score-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Min score input' has value '30'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-preview-image-upload-widget-input" at index "0"
+INFO     FILE_INPUT:file_input.py:18 Set file "testdata/files/image.png" to the file input "Upload"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-toolbar-create-course-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Create course button"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-preview-image" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Image.type_of of <elements.image.Image object at 0x7f43519b7350>> "Preview" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b7e50>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b7e50>> "Title" has text "Python"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-max-score-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b6390>> "Max score" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-max-score-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b6390>> "Max score" has text "Max score: 100"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-min-score-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b5610>> "Min score" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-min-score-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b5610>> "Min score" has text "Min score: 30"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-estimated-time-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b7390>> "Estimated time" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-estimated-time-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b7390>> "Estimated time" has text "Estimated time: 1 week"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-view-menu-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Menu"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-view-edit-menu-item" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that button "Edit" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-view-edit-menu-item" at index "0"
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Edit"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-title-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Title input' to value 'Java'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-title-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Title input' has value 'Java'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-estimated-time-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Estimated time input' to value '3 week'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-estimated-time-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Estimated time input' has value '3 week'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-description-input" at index "0"
+INFO     TEXTAREA:textarea.py:26 Fill textarea 'Description textarea' with 'Scrip'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-description-input" at index "0"
+INFO     TEXTAREA:textarea.py:36 Check that textarea 'Description textarea' has value 'Scrip'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-max-score-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Max score input' to value '200'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-max-score-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Max score input' has value '200'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-min-score-input" at index "0"
+INFO     INPUT:input.py:25 Fill input 'Min score input' to value '40'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-form-min-score-input" at index "0"
+INFO     INPUT:input.py:35 Check that input 'Min score input' has value '40'
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=create-course-toolbar-create-course-button" at index "0"
+INFO     BASE_ELEMENT:base_element.py:44 Clicking button "Create course button"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-preview-image" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Image.type_of of <elements.image.Image object at 0x7f43519b7350>> "Preview" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b7e50>> "Title" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-widget-title-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b7e50>> "Title" has text "Java"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-max-score-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b6390>> "Max score" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-max-score-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b6390>> "Max score" has text "Max score: 200"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-min-score-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b5610>> "Min score" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-min-score-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b5610>> "Min score" has text "Min score: 40"
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-estimated-time-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:54 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b7390>> "Estimated time" is visible
+INFO     BASE_ELEMENT:base_element.py:26 Getting locator with "data-testid=course-estimated-time-info-row-view-text" at index "0"
+INFO     BASE_ELEMENT:base_element.py:64 Checking that <bound method Text.type_of of <elements.text.Text object at 0x7f43519b7390>> "Estimated time" has text "Estimated time: 3 week"
