@@ -1,0 +1,46 @@
+name: AI Review
+
+# Ручной запуск пайплайна через интерфейс GitHub Actions
+on:
+  workflow_dispatch:
+    inputs:
+      review-command:
+        type: choice
+        default: run
+        options: [ run, run-inline, run-context, run-summary, run-inline-reply, run-summary-reply ]
+        description: "Review command"
+      pull-request-number:
+        type: string
+        required: true
+        description: "Pull request number"
+
+jobs:
+  ai-review:
+    runs-on: ubuntu-latest
+    steps:
+      # Шаг 1. Клонируем код репозитория
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # обязательно! загружаем всю историю, чтобы AI Review мог построить diff
+
+      # Шаг 2. Запускаем инструмент AI Review
+      - name: Run AI Review
+        uses: Nikita-Filonov/ai-review@v0.76.0
+        with:
+          # Команда AI Review, выбранная при запуске (например, run, run-inline, run-summary)
+          review-command: ${{ inputs.review-command }}
+        env:
+          # Владелец репозитория
+          VCS__PIPELINE__OWNER: ${{ github.repository_owner }}
+
+          # Название репозитория
+          VCS__PIPELINE__REPO: ${{ github.event.repository.name }}
+
+          # Номер Pull Request, который нужно проанализировать
+          VCS__PIPELINE__PULL_NUMBER: ${{ inputs.pull-request-number }}
+
+          # Встроенный токен GitHub, необходимый для публикации комментариев
+          VCS__HTTP_CLIENT__API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          # Токен доступа к LLM (например, MOONSHOT), добавленный в Secrets репозитория
+          LLM__HTTP_CLIENT__API_TOKEN: ${{ secrets.MOONSHOT_API_KEY }}
